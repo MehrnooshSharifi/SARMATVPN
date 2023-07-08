@@ -22,7 +22,7 @@ export default function Home() {
         {/* ServerList */}
         <div className="relative flex items-center justify-center mb-[45.71px] mx-[46px]">
           <img
-            src="/Images/rectangle.svg"
+            src="/Images/Rectangle.svg"
             alt="serverList"
             className="w-[298px] h-[53.92px]"
           />
@@ -50,9 +50,9 @@ export default function Home() {
                 </div>
                 {/* down */}
                 {!isUSA ? (
-                  <BiChevronDown className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-700" />
+                  <BiChevronDown className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-200" />
                 ) : (
-                  <BiChevronUp className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-700" />
+                  <BiChevronUp className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-200" />
                 )}
               </div>
               {/* USADetail */}
@@ -107,9 +107,9 @@ export default function Home() {
                 </div>
                 {/* down */}
                 {!isGERMANY ? (
-                  <BiChevronDown className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-700" />
+                  <BiChevronDown className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-200" />
                 ) : (
-                  <BiChevronUp className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-700" />
+                  <BiChevronUp className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-200" />
                 )}
               </div>
               {/* GermanyDetails */}
@@ -164,9 +164,9 @@ export default function Home() {
                 </div>
                 {/* down */}
                 {!isCANADA ? (
-                  <BiChevronDown className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-700" />
+                  <BiChevronDown className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-200" />
                 ) : (
-                  <BiChevronUp className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-700" />
+                  <BiChevronUp className=" w-8 h-8 stroke-black mr-[18px] transition-all duration-200" />
                 )}
               </div>
               {/* GermanyDetails */}
