@@ -39,7 +39,7 @@ export default function Home() {
             >
               <div
                 onClick={() => setIsUSA(!isUSA)}
-                className="bg-countrybg justify-between z-0 flex items-center opacity-80 w-[309px] h-[60px] rounded-[30px]"
+                className="bg-countrybg justify-between z-0 flex items-center opacity-70 w-[309px] h-[60px] rounded-[30px]"
               >
                 {/* image&pic */}
                 <div className="flex items-center z-10 ">
@@ -57,7 +57,7 @@ export default function Home() {
               </div>
               {/* USADetail */}
               {isUSA && (
-                <div className="flex bg-countrybg opacity-80 w-[309px] h-[60px] rounded-[30px] items-center justify-between mt-[11px]">
+                <div className="flex bg-countrybg opacity-70 w-[309px] h-[60px] rounded-[30px] items-center justify-between mt-[11px]">
                   <div className="flex items-start">
                     {/* serverImage */}
                     <div className="ml-[11px]">
@@ -90,7 +90,7 @@ export default function Home() {
             >
               <div
                 onClick={() => setIsGERMANY(!isGERMANY)}
-                className={`bg-countrybg justify-between z-0 flex items-center opacity-80 w-[309px] h-[60px] rounded-[30px] ${
+                className={`bg-countrybg justify-between z-0 flex items-center opacity-70 w-[309px] h-[60px] rounded-[30px] ${
                   isGERMANY && "mb-[11px]"
                 }`}
               >
@@ -114,7 +114,7 @@ export default function Home() {
               </div>
               {/* GermanyDetails */}
               {isGERMANY && (
-                <div className="flex bg-countrybg opacity-80 w-[309px] h-[60px] rounded-[30px] items-center justify-between">
+                <div className="flex bg-countrybg opacity-70 w-[309px] h-[60px] rounded-[30px] items-center justify-between">
                   <div className="flex items-start">
                     {/* serverImage */}
                     <div className="ml-[11px]">
@@ -147,7 +147,7 @@ export default function Home() {
             >
               <div
                 onClick={() => setIsCANADA(!isCANADA)}
-                className={`bg-countrybg justify-between z-0 flex items-center opacity-80 w-[309px] h-[60px] rounded-[30px] ${
+                className={`bg-countrybg justify-between z-0 flex items-center opacity-70 w-[309px] h-[60px] rounded-[30px] ${
                   isCANADA ? "mb-[11px]" : ""
                 }`}
               >
@@ -171,7 +171,7 @@ export default function Home() {
               </div>
               {/* GermanyDetails */}
               {isCANADA && (
-                <div className="flex bg-countrybg opacity-80 w-[309px] h-[60px] rounded-[30px] items-center justify-between">
+                <div className="flex bg-countrybg opacity-70 w-[309px] h-[60px] rounded-[30px] items-center justify-between">
                   <div className="flex items-start">
                     {/* serverImage */}
                     <div className="ml-[11px]">
@@ -204,7 +204,7 @@ export default function Home() {
             >
               <div
                 onClick={() => setIsUK(!isUK)}
-                className={`bg-countrybg justify-between z-0 flex items-center opacity-80 w-[309px] h-[60px] rounded-[30px] ${
+                className={`bg-countrybg justify-between z-0 flex items-center opacity-70 w-[309px] h-[60px] rounded-[30px] ${
                   isUK && "mb-[11px]"
                 }`}
               >
@@ -224,7 +224,7 @@ export default function Home() {
               </div>
               {/* GermanyDetails */}
               {isUK && (
-                <div className="flex bg-countrybg opacity-80 w-[309px] h-[60px] rounded-[30px] items-center justify-between">
+                <div className="flex bg-countrybg opacity-70 w-[309px] h-[60px] rounded-[30px] items-center justify-between">
                   <div className="flex items-start">
                     {/* serverImage */}
                     <div className="ml-[11px]">
