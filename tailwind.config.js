@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         gradientOne: "#41C5A4",
         gradientTwo: "#1BA87D",
-        bgPrimaryColor: "#E5E5E5",
+        bgPrimaryColor: "#F4F3F3",
         countrybg: "#D9D9D9",
       },
     },
